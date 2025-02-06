@@ -15,11 +15,26 @@ public:
     void scaleSprites(RenderWindow& window);
 
     
-    Sprite& getBackground() { return sBackground; }
-    Sprite& getPlatform() { return sPlatform; }
-    Sprite& getDoodle() { return sDoodle; }
-    Sprite& getEnemy() { return sEnemy; }
-    Sprite& getBonus() { return sBonus; }
+    Sprite& getBackground() 
+    { 
+        return sBackground; 
+    }
+    Sprite& getPlatform() 
+    { 
+        return sPlatform; 
+    }
+    Sprite& getDoodle() 
+    { 
+        return sDoodle; 
+    }
+    Sprite& getEnemy() 
+    { 
+        return sEnemy; 
+    }
+    Sprite& getBonus() 
+    { 
+        return sBonus; 
+    }
 
    
     void drawBackground(sf::RenderWindow& window);
